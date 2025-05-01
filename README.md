@@ -1,6 +1,5 @@
 # Miniproject for Placement Eligibility Apps
-# MySQL Database Connection App
-
+**Objective**:
 This Streamlit application connects to a MySQL database and fetches data based on user input.
 
 ## Requirements
@@ -8,9 +7,6 @@ This Streamlit application connects to a MySQL database and fetches data based o
 * Streamlit
 * PyMySQL
 * Pandas
-* Matplotlib
-* Plotly
-* dotenv
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/your-repo/mysql-app.git`
@@ -27,24 +23,18 @@ DB_NAME=database
 ## Usage
 1. Navigate to the application URL: `http://localhost:8501`
 2. Select a page from the navigation menu:
-	* Home: Displays a welcome message
 	* Eligibility Criteria: Fetches eligible students based on user input
 	* Insights: Displays insights and statistics about the data
-	* Visualization: Displays visualizations of the data
-	* About: Displays information about the application
 
 ## Features
-* Connects to a MySQL database using environment variables
+* Connects to a MySQL workbench database using environment variables
 * Fetches eligible students based on user input
-* Displays insights and statistics about the data
-* Visualizes data using Plotly
-* Provides information about the application
+* Displays insights about the data
+
 
 ## Troubleshooting
 * Make sure to install all dependencies and create a `.env` file with your MySQL database credentials
 * Check the application logs for any errors
 
-## Contributing
-Contributions are welcome! If you have any suggestions or improvements, feel free to open an issue or pull request.
 
 
