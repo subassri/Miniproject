@@ -16,7 +16,7 @@ Installation
    DB_USER=root
    DB_PASSWORD=password
    DB_NAME=database
-3. Run the application: streamlit run app.py
+3. Run the application: streamlit run phonepeapps.py
 
 ## Usage
 1. Navigate to the application URL: `http://localhost:8501`
